@@ -36,7 +36,7 @@ export function NavBar() {
             });
         },
         {
-            threshold: 0.6,
+            threshold: 0.3,
         }
     );
 
@@ -51,8 +51,8 @@ export function NavBar() {
             <Tabs value={value} onChange={handleChange} centered>
                 <Tab label="About" value={0} href="#homepage" style={{ color: 'white' }}/> {/* My Summary w/ Photo */}
                 <Tab label="Skills" value={1} href="#skills" style={{ color: 'white' }} />
-                <Tab label="Projects" value={2} href="#projects" style={{ color: 'white' }} /> {/* Projects */}
-                <Tab label="Work Experience" value={3} href="#experience" style={{ color: 'white' }} /> {/* Work Experience, w/ Downloadable Resume & LinkedIn link */}
+                <Tab label="Work Experience" value={2} href="#experience" style={{ color: 'white' }} /> {/* Work Experience, w/ Downloadable Resume & LinkedIn link */}
+                <Tab label="Projects" value={3} href="#projects" style={{ color: 'white' }} /> {/* Projects */}
             </Tabs>
         </div>
     );

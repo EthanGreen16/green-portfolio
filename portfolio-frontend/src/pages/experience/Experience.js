@@ -13,7 +13,7 @@ function experienceBox({ CompanyName, Role, Duration, Description }) {
 export function Experience() {
     return (
         <section id="experience" style={{ backgroundColor: 'white', padding: '4rem', display: 'flex', flexDirection: 'column', color: 'black' }}>
-            <text style={{ fontSize: '30px', fontWeight: 'bold', marginBottom: '2rem' }}>Experience</text>
+            <text style={{ fontSize: '30px', fontWeight: 'bold', marginBottom: '2rem' }}>Experience: </text>
             <img src={FHLogo} alt="First Horizon Bank Logo" style={{ width: '200px', height: 'auto', marginBottom: '2rem', backgroundColor: 'white'}} />
             <text style={{ fontSize: '20px', fontWeight: 'bold' }}>Software Development Intern | First Horizon Bank (Summer 2025)</text>
             <text style={{ fontSize: '16px', marginBottom: '1rem' }}>

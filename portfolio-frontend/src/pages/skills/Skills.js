@@ -14,7 +14,7 @@ function Skillbox({ icon, title, description }) {
 
 export function Skills() {
     return (
-        <section id="skills"style={{ backgroundColor: 'teal', padding: '10vh', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '20px', color: 'lightgrey' }}>
+        <section id="skills" style={{ backgroundColor: 'teal', padding: '10vh', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '20px', color: 'lightgrey' }}>
             <text style={{ fontSize: '40px', fontWeight: 'bold' }}>Skills</text>
             <text>Here are some of my Skills!</text>
             <text>Always wanting to learn more.</text>
