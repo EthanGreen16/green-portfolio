@@ -35,6 +35,8 @@ export function Skills() {
 
                 {Skillbox({ icon: <FaPython style={{ fontSize: '100px' }} />, title: "Python", description: "Experience using Python's FastAPI to create RESTful APIs." })}
 
+                {Skillbox({ icon: <FaBrain style={{ fontSize: '100px' }} />, title: "AI/Machine Learning", description: "Experience using different AI frameworks and libraries to drive and help solve complex problems. These applications include Claude, ChatGTP, GitHub Copilot, Devin, and more." })}
+
             </div>
         </section>
     );
