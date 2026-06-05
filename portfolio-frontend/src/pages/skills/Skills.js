@@ -1,4 +1,4 @@
-import { FaJs, FaJava, FaLinux, FaHtml5, FaGithub, FaNodeJs, FaPython } from "react-icons/fa";
+import { FaJs, FaJava, FaLinux, FaHtml5, FaGithub, FaNodeJs, FaPython, FaBrain } from "react-icons/fa";
 
 function Skillbox({ icon, title, description }) {
     return (
@@ -25,16 +25,17 @@ export function Skills() {
 
                 {Skillbox({ icon: <FaJava style={{ fontSize: '100px' }} />, title: "Java", description: "Built full-stack applications using Java and Spring Boot, including REST APIs, backend business logic, and database integration with Microsoft SQL Server. Used in both internship and personal projects." })}
 
-                {Skillbox({ icon: <FaLinux style={{ fontSize: '100px' }} />, title: "Linux", description: "Experience working with Linux systems and command line interfaces." })}
+                {Skillbox({ icon: <FaLinux style={{ fontSize: '100px' }} />, title: "Linux", description: "I bring proven experience with Linux systems and command-line interfaces, including terminal operations, shell scripting, and system administration." })}
 
                 {Skillbox({ icon: <FaHtml5 style={{ fontSize: '100px' }} />, title: "HTML/CSS", description: "Experience building responsive and accessible web applications." })}
 
-                {Skillbox({ icon: <FaGithub style={{ fontSize: '100px' }} />, title: "GitHub", description: "Experience working with Git and GitHub for version control and collaboration." })}
+                {Skillbox({ icon: <FaGithub style={{ fontSize: '100px' }} />, title: "GitHub", description: "Possess strong experience in version control and team collaboration utilizing Git and GitHub. I actively use these platforms to maintain structured project histories, manage branches efficiently, and support collaborative development cycles within fast-paced software environments." })}
 
                 {Skillbox({ icon: <FaNodeJs style={{ fontSize: '100px' }} />, title: "Node.js", description: "Experience building scalable server-side applications with Node.js and Express." })}
 
                 {Skillbox({ icon: <FaPython style={{ fontSize: '100px' }} />, title: "Python", description: "Experience using Python's FastAPI to create RESTful APIs." })}
 
+                {Skillbox({ icon: <FaBrain style={{ fontSize: '100px' }} />, title: "AI/Machine Learning", description: "Experience using different AI frameworks and libraries to drive and help solve complex problems. These applications include Claude, ChatGTP, GitHub Copilot, Devin, and more." })}
             </div>
         </section>
     );

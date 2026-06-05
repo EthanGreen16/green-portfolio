@@ -11,6 +11,8 @@ import { Experience } from './pages/experience/Experience';
 
 document.title = "Ethan Green - Portfolio";
 
+/* Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass */
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(  
   <React.StrictMode>
