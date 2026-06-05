@@ -5,7 +5,7 @@ function Skillbox({ icon, title, description }) {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', justifyContent: 'center', alignItems: 'center', maxWidth: '300px' }}>
             {icon}
             <text style={{ fontSize: '20px', fontWeight: 'bold' }}>{title}</text>
-            <text style = {{ fontSize: '16px', justifyContent: 'center', alignItems: 'center' }}>{description}</text>
+            <p style = {{ fontSize: '16px', textAlign: 'center' }}>{description}</p>
         </div>
     )
 }
@@ -27,13 +27,13 @@ export function Skills() {
 
                 {Skillbox({ icon: <FaLinux style={{ fontSize: '100px' }} />, title: "Linux", description: "I bring proven experience with Linux systems and command-line interfaces, including terminal operations, shell scripting, and system administration." })}
 
-                {Skillbox({ icon: <FaHtml5 style={{ fontSize: '100px' }} />, title: "HTML/CSS", description: "Experience building responsive and accessible web applications." })}
+                {Skillbox({ icon: <FaHtml5 style={{ fontSize: '100px' }} />, title: "HTML/CSS", description: "Developed responsive, accessible web applications with a focus on user experience. Ensured seamless functionality across devices while maintaining accessibility standards." })}
 
                 {Skillbox({ icon: <FaGithub style={{ fontSize: '100px' }} />, title: "GitHub", description: "Possess strong experience in version control and team collaboration utilizing Git and GitHub. I actively use these platforms to maintain structured project histories, manage branches efficiently, and support collaborative development cycles within fast-paced software environments." })}
 
-                {Skillbox({ icon: <FaNodeJs style={{ fontSize: '100px' }} />, title: "Node.js", description: "Experience building scalable server-side applications with Node.js and Express." })}
+                {Skillbox({ icon: <FaNodeJs style={{ fontSize: '100px' }} />, title: "Node.js", description: "Developed scalable server-side applications with Node.js and Express. Created robust backend systems capable of handling high-volume requests with optimal performance." })}
 
-                {Skillbox({ icon: <FaPython style={{ fontSize: '100px' }} />, title: "Python", description: "Experience using Python's FastAPI to create RESTful APIs." })}
+                {Skillbox({ icon: <FaPython style={{ fontSize: '100px' }} />, title: "Python", description: "Developed RESTful APIs using Python's FastAPI framework. Built high-performance endpoints with automatic documentation and validation for seamless integration." })}
 
                 {Skillbox({ icon: <FaBrain style={{ fontSize: '100px' }} />, title: "AI/Machine Learning", description: "Experience using different AI frameworks and libraries to drive and help solve complex problems. These applications include Claude, ChatGTP, GitHub Copilot, Devin, and more." })}
             </div>

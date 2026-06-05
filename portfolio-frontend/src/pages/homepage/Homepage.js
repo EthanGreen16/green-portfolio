@@ -7,7 +7,7 @@ export function Homepage() {
             <div style={{ display: 'flex', flexDirection: 'row', gap: '5px', padding: '4rem' }}>
                 <div style={{ flex: 1, padding: '0px', display: 'flex', flexDirection: 'column', gap: '15px' , justifyContent: 'center'}}>
                     <text style={{ fontSize: '40px', fontWeight: 'bold' }}>Ethan Green</text>
-                    <text style={{ fontSize: '20px' }}>University of Arkansas Graduate '26 | Full-Stack Developer</text>
+                    <text style={{ fontSize: '20px' }}>University of Arkansas Graduate '26 | Full-Stack Developer | AI Developer</text>
 
                     <div style={{ fontSize: '20px', maxWidth: '70%' , textIndent: '2rem', fontWeight: 'lighter', display: 'flex', flexDirection: 'column', gap: '10px' }}>
                         <text>

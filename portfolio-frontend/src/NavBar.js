@@ -23,11 +23,8 @@ export function NavBar() {
                         case "skills":
                             setValue(1);
                             break;
-                        case "projects":
-                            setValue(2);
-                            break;
                         case "experience":
-                            setValue(3);
+                            setValue(2);
                             break;
                         default:
                             setValue(0);
@@ -36,7 +33,7 @@ export function NavBar() {
             });
         },
         {
-            threshold: 0.3,
+            threshold: 0.2,
         }
     );
 
@@ -52,7 +49,6 @@ export function NavBar() {
                 <Tab label="About" value={0} href="#homepage" style={{ color: 'white' }}/> {/* My Summary w/ Photo */}
                 <Tab label="Skills" value={1} href="#skills" style={{ color: 'white' }} />
                 <Tab label="Work Experience" value={2} href="#experience" style={{ color: 'white' }} /> {/* Work Experience, w/ Downloadable Resume & LinkedIn link */}
-                <Tab label="Projects" value={3} href="#projects" style={{ color: 'white' }} /> {/* Projects */}
             </Tabs>
         </div>
     );
