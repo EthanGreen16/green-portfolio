@@ -1,5 +1,5 @@
 import headshot from './Ethan-Green.jpg';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
 
 export function Homepage() {
     return (
@@ -49,16 +49,35 @@ export function Homepage() {
                             border: '2px solid black',
                         }}
                     />
-                    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '20px', width: '100%', justifyContent: 'center', alignItems: 'center', gap: '5rem' }}>
-                        <a href="https://www.linkedin.com/in/ethan-green-5321362a3/" target="_blank" rel="noopener noreferrer" 
-                        style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
-                            LinkedIn
-                            <FaLinkedin style={{ marginLeft: '1rem', color: 'blue' }} />
-                        </a>
-                        <a href="https://github.com/EthanGreen16" target="_blank" rel="noopener noreferrer" 
-                        style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
-                            GitHub <FaGithub style={{ marginLeft: '1rem' }} />
-                        </a>
+                        <div style={{ 
+                            display: 'grid', 
+                            gridTemplateColumns: 'repeat(2, 1fr)', 
+                            marginTop: '20px', 
+                            width: '100%', 
+                            justifyContent: 'center', 
+                            alignItems: 'center', 
+                            justifyItems: 'center',  // Add this to center items within cells
+                            gap: '2rem' 
+                        }}>                          
+                            <a href="https://www.linkedin.com/in/ethan-green-5321362a3/" target="_blank" rel="noopener noreferrer" 
+                            style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
+                                LinkedIn
+                                <FaLinkedin style={{ marginLeft: '1rem', color: "#0077b5" }} />
+                            </a>
+                            <a href="https://github.com/EthanGreen16" target="_blank" rel="noopener noreferrer" 
+                            style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
+                                GitHub <FaGithub style={{ marginLeft: '1rem', color: "#24292e" }} />
+                            </a>
+
+                            <a href="Ethan Green -- Resume.pdf" target="_blank" rel="noopener noreferrer" 
+                            style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
+                                Resume <FaFilePdf style={{ marginLeft: '1rem', color: "#dc2626" }} />
+                            </a>
+
+                            <a href="Transcript.pdf" target="_blank" rel="noopener noreferrer" 
+                            style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
+                                Transcript <FaFilePdf style={{ marginLeft: '1rem', color: "#dc2626" }} />
+                            </a>
                     </div>
                 </div>
 
