@@ -3,28 +3,34 @@ import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
 
 export function Homepage() {
     return (
-        <section id="homepage" style={{ backgroundColor: 'white'}}>
-            <div style={{ display: 'flex', flexDirection: 'row', gap: '5px', padding: '4rem' }}>
+        <section id="homepage" style={{ backgroundColor: '#f8fafc'}}>
+            <div style={{ 
+                display: 'flex', 
+                flexDirection: 'row', 
+                gap: '3rem',  
+                padding: '2rem',  
+                maxWidth: '80%',  
+                margin: '0 auto' 
+            }}>                
                 <div style={{ flex: 1, padding: '0px', display: 'flex', flexDirection: 'column', gap: '15px' , justifyContent: 'center'}}>
                     <text style={{ fontSize: '40px', fontWeight: 'bold' }}>Ethan Green</text>
                     <text style={{ fontSize: '20px' }}>University of Arkansas Graduate '26 | Full-Stack Developer | AI Developer</text>
 
-                    <div style={{ fontSize: '20px', maxWidth: '70%' , textIndent: '2rem', fontWeight: 'lighter', display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                        <text>
+                    <div style={{ fontSize: '20px', maxWidth: '1200px' , textIndent: '2rem', fontWeight: 'lighter', display: 'flex', flexDirection: 'column', gap: '3rem', padding: '2rem' }}>
+                        <p>
                             I'm a recent Computer Science graduate from the University of Arkansas with a passion for building clean and practical software 
                             that solves real problems. I enjoy full-stack development and have experience working with Java, Spring Boot, React, 
-                            SQL, and REST APIs through both professional and personal projects. </text>
+                            SQL, and REST APIs through both professional and personal projects. </p>
 
-                        <text>
+                        <p>
                             During my internship at First Horizon Bank, I developed internal web applications that improved how teams accessed and managed
                             company data. I've also worked on projects ranging from contact management systems to enterprise scheduling platforms, where
-                            I collaborated with development teams to build scalable and user-friendly tools. </text>
+                            I collaborated with development teams to build scalable and user-friendly tools. </p>
 
-                        <text>
+                        <p>
                             I'm especially interested in backend development, modern web applications, and creating software that is both functional
                             and allows great user experience. Outside of development, I'm always looking for opportunities to grow as a developer and take
-                            on new technical challenges.
-                        </text>
+                            on new technical challenges. </p>
                     </div>
 
                     <div>
@@ -69,12 +75,12 @@ export function Homepage() {
                                 GitHub <FaGithub style={{ marginLeft: '1rem', color: "#24292e" }} />
                             </a>
 
-                            <a href="Ethan Green -- Resume.pdf" target="_blank" rel="noopener noreferrer" 
+                            <a href="/Ethan-Green-Resume.pdf" download target="_blank" rel="noopener noreferrer" 
                             style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
                                 Resume <FaFilePdf style={{ marginLeft: '1rem', color: "#dc2626" }} />
                             </a>
 
-                            <a href="Transcript.pdf" target="_blank" rel="noopener noreferrer" 
+                            <a href="/Ethan-Green-Transcript.pdf" download target="_blank" rel="noopener noreferrer" 
                             style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
                                 Transcript <FaFilePdf style={{ marginLeft: '1rem', color: "#dc2626" }} />
                             </a>
