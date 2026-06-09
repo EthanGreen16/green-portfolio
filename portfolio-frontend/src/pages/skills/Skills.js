@@ -2,10 +2,28 @@ import { FaJs, FaJava, FaLinux, FaHtml5, FaGithub, FaNodeJs, FaPython, FaBrain }
 
 function Skillbox({ icon, title, description }) {
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', justifyContent: 'center', alignItems: 'center', maxWidth: '300px' }}>
-            {icon}
-            <text style={{ fontSize: '20px', fontWeight: 'bold' }}>{title}</text>
-            <p style = {{ fontSize: '16px', textAlign: 'center' }}>{description}</p>
+        <div style={{ 
+            display: 'flex', 
+            flexDirection: 'column', 
+            gap: '10px', 
+            justifyContent: 'center', 
+            alignItems: 'center', 
+            maxWidth: '300px',
+            minHeight: '400px'
+        }}>            
+            <div style={{ 
+                width: '150px', 
+                height: '150px', 
+                borderRadius: '50%', 
+                backgroundColor: '#0f172a', 
+                display: 'flex', 
+                justifyContent: 'center', 
+                alignItems: 'center' 
+            }}>
+                {icon}
+            </div>
+            <text style={{ fontSize: 'clamp(1rem, 2vw, 1.25rem)', fontWeight: 'bold' }}>{title}</text>
+            <p style = {{ fontSize: 'clamp(1rem, 2vw, 1.25rem)', textAlign: 'center' }}>{description}</p>
         </div>
     )
 }
@@ -14,12 +32,38 @@ function Skillbox({ icon, title, description }) {
 
 export function Skills() {
     return (
-        <section id="skills" style={{ backgroundColor: 'teal', padding: '10vh', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '20px', color: 'lightgrey' }}>
+            <section
+            id="skills"
+            style={{
+                backgroundColor: '#374151 ',
+                padding: '10vh',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '20px',
+                color: 'white',
+                alignItems: 'center',
+                width: '100%',
+                boxSizing: 'border-box',
+                overflowX: 'hidden'
+            }}
+            >
+
             <text style={{ fontSize: '40px', fontWeight: 'bold' }}>Skills</text>
             <text>Here are some of my Skills!</text>
             <text>Always wanting to learn more.</text>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(300px, 1fr))', gap: '10rem', padding: '5rem' }}>
+            <div
+                style={{
+                // width: 'min(1200px, 100%)',   // let the grid take full width, capped for readability
+                maxWidth: '100%',
+                margin: '0 auto',
+                display: 'grid',
+                gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', // exactly 3 columns
+                gap: 'clamp(1rem, 10vw, 5rem)',
+                padding: 'clamp(1rem, 3vw, 4rem)',
+                alignItems: 'start'
+                }}
+            >
 
                 {Skillbox({ icon: <FaJs style={{ fontSize: '100px' }} />, title: "JavaScript", description: "Developed interactive frontend functionality using JavaScript within React applications, including dynamic rendering, API communication, and responsive user interfaces." })}
 
