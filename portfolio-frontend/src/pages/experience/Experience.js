@@ -19,7 +19,7 @@ export function Experience() {
                 CompanyName: "First Horizon Bank", 
                 Logo: FHLogo, 
                 Role: "Treasury Management Digital Technology Intern", 
-                Time: "Summer 2025", 
+                Time: "June 2025 - August 2025", 
                 Description: (
                         <ul>
                             <li>Developed internal web applications that improved team data access and management</li>
