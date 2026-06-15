@@ -4,18 +4,29 @@ import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
 export function Homepage() {
     return (
         <section id="homepage" style={{ backgroundColor: '#f8fafc'}}>
+            
+            <div style={{ 
+                display: 'flex', 
+                flexDirection: 'column', 
+                alignItems: 'center',
+                paddingTop: '3rem',
+                textAlign: 'center'
+            }}>
+                <text style={{ fontSize: '40px', fontWeight: 'bold' }}>Ethan Green</text>
+                <text style={{ fontSize: '20px' }}>University of Arkansas Graduate '26 | Full-Stack Developer | AI Developer</text>
+            </div>     
+            
+            
+            
             <div style={{ 
                 display: 'flex', 
                 flexDirection: 'row', 
-                gap: '3rem',  
-                padding: '2rem',  
+                gap: '2rem',  
+                padding: '0rem',  
                 maxWidth: '80%',  
                 margin: '0 auto' 
             }}>                
-                <div style={{ flex: 1, padding: '0px', display: 'flex', flexDirection: 'column', gap: '15px' , justifyContent: 'center'}}>
-                    <text style={{ fontSize: '40px', fontWeight: 'bold' }}>Ethan Green</text>
-                    <text style={{ fontSize: '20px' }}>University of Arkansas Graduate '26 | Full-Stack Developer | AI Developer</text>
-
+                <div style={{ flex: 1, padding: '0px', display: 'flex', flexDirection: 'column', gap: '15px' , justifyContent: 'center', alignItems: 'center'}}>
                     <div style={{ fontSize: '20px', maxWidth: '1200px' , textIndent: '2rem', fontWeight: 'lighter', display: 'flex', flexDirection: 'column', gap: '3rem', padding: '2rem' }}>
                         <p>
                             I'm a recent Computer Science graduate from the University of Arkansas with a passion for building clean and practical software 
