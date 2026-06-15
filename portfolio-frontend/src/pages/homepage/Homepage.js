@@ -65,22 +65,22 @@ export function Homepage() {
                             justifyItems: 'center',  // Add this to center items within cells
                             gap: '2rem' 
                         }}>                          
-                            <a href="https://www.linkedin.com/in/ethan-green-5321362a3/" target="_blank" rel="noopener noreferrer" 
+                            <a href="https://www.linkedin.com/in/ethan-green-5321362a3/" rel="noopener noreferrer" 
                             style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
                                 LinkedIn
                                 <FaLinkedin style={{ marginLeft: '1rem', color: "#0077b5" }} />
                             </a>
-                            <a href="https://github.com/EthanGreen16" target="_blank" rel="noopener noreferrer" 
+                            <a href="https://github.com/EthanGreen16" rel="noopener noreferrer" 
                             style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
                                 GitHub <FaGithub style={{ marginLeft: '1rem', color: "#24292e" }} />
                             </a>
 
-                            <a href="/Ethan-Green-Resume.pdf" download target="_blank" rel="noopener noreferrer" 
+                            <a href="/Ethan-Green-Resume.pdf" download rel="noopener noreferrer" 
                             style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
                                 Resume <FaFilePdf style={{ marginLeft: '1rem', color: "#dc2626" }} />
                             </a>
 
-                            <a href="/Ethan-Green-Transcript.pdf" download target="_blank" rel="noopener noreferrer" 
+                            <a href="/Ethan-Green-Transcript.pdf" download rel="noopener noreferrer" 
                             style={{ textDecoration: 'none', color: 'black', fontSize: '20px', display: 'flex', alignItems: 'center' }}>
                                 Transcript <FaFilePdf style={{ marginLeft: '1rem', color: "#dc2626" }} />
                             </a>

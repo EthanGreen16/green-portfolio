@@ -54,7 +54,6 @@ export function Skills() {
 
             <div
                 style={{
-                // width: 'min(1200px, 100%)',   // let the grid take full width, capped for readability
                 maxWidth: '100%',
                 margin: '0 auto',
                 display: 'grid',
