@@ -14,7 +14,7 @@ function experienceBox({ CompanyName, Logo, Role, Time, Description }) {
 export function Experience() {
     return (
         <section id="experience" style={{ backgroundColor: '#f8fafc', padding: '4rem', display: 'flex', flexDirection: 'column', color: 'black', gap: '3rem', alignItems: 'center' }}>
-            <text style={{ fontSize: '30px', fontWeight: 'bold' }}>Experience: </text>
+            <text style={{ fontSize: '30px', fontWeight: 'bold' }}>Experience</text>
             {experienceBox({ 
                 CompanyName: "First Horizon Bank", 
                 Logo: FHLogo, 
@@ -22,10 +22,10 @@ export function Experience() {
                 Time: "June 2025 - August 2025", 
                 Description: (
                         <ul>
-                            <li>Developed internal web applications that improved team data access and management</li>
-                            <li>Collaborated with cross-functional teams to gather requirements and design interfaces</li>
-                            <li>Implemented scalable solutions using Java, Spring Boot, React, and SQL Server</li>
-                            <li>Built REST APIs and integrated with existing systems while meeting security standards</li>
+                            <li>Developed internal web applications that <strong>improved</strong> team data access and management</li>
+                            <li><strong>Collaborated</strong> with cross-functional teams to gather requirements and design interfaces</li>
+                            <li>Implemented scalable solutions using <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>React</strong>, and <strong>SQL Server</strong></li>
+                            <li>Built <strong>REST APIs</strong> and integrated with existing systems while meeting security standards</li>
                         </ul>
                     ) 
                 })}
@@ -33,15 +33,15 @@ export function Experience() {
             {experienceBox({
                 CompanyName: "First Horizon Bank", 
                 Logo: FHLogo, 
-                Role: "AI Developer", 
+                Role: "Treasury Management Digital Technology Intern", 
                 Time: "June 2026 - Present",
                 Description: (
                     <ul>
-                        <li>Leveraged AI to develop internal websites that streamlined client onboarding processes</li>
-                        <li>Implemented intelligent automation solutions that increased onboarding speed by 40%</li>
-                        <li>Designed and deployed AI-powered tools that automated repetitive tasks, allowing team members to focus on high-value activities</li>
-                        <li>Collaborated with cross-functional teams to identify pain points in the onboarding workflow and deliver targeted solutions</li>
-                        <li>Resulted in accelerated onboarding timeline, enhanced client satisfaction, and reduced manual errors</li>
+                        <li>Leveraged <strong>AI</strong> to develop internal websites that streamlined client onboarding processes</li>
+                        <li>Implemented intelligent automation solutions that increased onboarding speed by <strong>40%</strong></li>
+                        <li>Designed and deployed <strong>AI-powered</strong> tools that automated repetitive tasks, allowing team members to focus on high-value activities</li>
+                        <li>Collaborated with cross-functional teams to identify pain points in the onboarding workflow and <strong>deliver targeted solutions</strong></li>
+                        <li>Resulted in <strong>accelerated</strong> onboarding timeline, <strong>enhanced</strong> client satisfaction, and <strong>reduced</strong> manual errors</li>
                     </ul>
                     ) 
                 })}

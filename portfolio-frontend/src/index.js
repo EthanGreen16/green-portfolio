@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { NavBar } from './NavBar';
 import { Homepage } from './pages/homepage/Homepage';
 import { Skills } from './pages/skills/Skills';
-// import { Projects } from './pages/projects/Projects';
+import { Projects } from './pages/projects/Projects';
 import { Experience } from './pages/experience/Experience';
 
 document.title = "Ethan Green - Portfolio";
@@ -22,6 +22,7 @@ root.render(
       <Homepage />
       <Skills />
       <Experience />
+      <Projects />
     </div>
   </React.StrictMode>
 );
