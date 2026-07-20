@@ -1,5 +1,5 @@
 
-function ProjectBox({ link, title, description }) {
+function ProjectBox({ link, title, description, techStack }) {
     return (
         <div style={{
             backgroundColor:'#1f2937',
@@ -19,16 +19,19 @@ function ProjectBox({ link, title, description }) {
                 borderRadius: '8px',
                 width: '100%'
             }}>
-                <h1>{title}</h1>
-                <a href={link} style={{ 
-                    color: '#60a5fa',
-                    textDecoration: 'none',
-                    fontWeight: 'bold',
-                    padding: '0.5rem 1rem',
-                    borderRadius: '4px',
-                    backgroundColor: '#374151',
-                }}>View Code</a>
+                <h1>{title}</h1>    
+                {link && (
+                    <a href={link} style={{ 
+                        color: '#60a5fa',
+                        textDecoration: 'none',
+                        fontWeight: 'bold',
+                        padding: '0.5rem 1rem',
+                        borderRadius: '4px',
+                        backgroundColor: '#374151',
+                    }}>View Code</a>
+                )}
                 <p>{description}</p>
+                <p style={{ color: '#9ca3af' }}>Tech Stack: {techStack}</p>
             </div>
         </div>
     );
@@ -74,11 +77,18 @@ export function Projects() {
                     link="https://github.com/EthanGreen16/green-portfolio" 
                     title="My Portfolio" 
                     description="A modern, responsive portfolio website built with React featuring smooth navigation, dynamic content sections, and a clean UI design. Implements component-based architecture, responsive layouts, and interactive elements to showcase professional experience and projects." 
+                    techStack="React, JavaScript, CSS"
                 />
                 <ProjectBox 
                     link="https://github.com/EthanGreen16/Snake_java" 
                     title="Snake" 
                     description="A classic Snake game built with Java Swing featuring progressive difficulty, collision detection, and real-time score tracking. Demonstrates object-oriented programming principles, event handling, and game loop implementation with smooth arrow key controls and restart functionality." 
+                    techStack="Java, Swing"
+                />
+                <ProjectBox 
+                    title="Enterprise Data Dashboard & Analytics Portal" 
+                    description="Created a dashboard that extracted different client companies' information from the company database and displayed them on an intuitive interface that allowed internal users to increase information lookup speeds by 25%, ultimately accelerated the rate at which First Horizon's Electronic Bill Payment service is developed and implemented." 
+                    techStack="React, JavaScript, CSS, Java, Spring Boot, MySQL"
                 />
             </div>
         </section>
