@@ -34,7 +34,7 @@ export function Experience() {
                 CompanyName: "First Horizon Bank", 
                 Logo: FHLogo, 
                 Role: "Treasury Management Digital Technology Intern", 
-                Time: "June 2026 - Present",
+                Time: "June 2026 - October 2026",
                 Description: (
                     <ul>
                         <li>Leveraged <strong>AI</strong> to develop internal websites that streamlined client onboarding processes</li>
@@ -45,6 +45,24 @@ export function Experience() {
                     </ul>
                     ) 
                 })}
+            {experienceBox({
+                CompanyName: "First Horizon Bank",
+                Logo: FHLogo,
+                Role: "IT Systems Engineer I",
+                Time: "October 2026 - Present",
+                Description: (
+                    <ul>
+                        <li><strong>Delivered</strong> a client-facing <strong>EBP (Electronic Bill Pay) enrollment UI</strong> using <strong>modern UI libraries</strong>, with <strong>multi-step flow, validation</strong>, and clear <strong>progress indicators.</strong></li>
+                        <li><strong>Automated communications:</strong> on completion, <strong>emailed clients</strong> a <strong>BRD summary</strong> and routed the full <strong>BRD plus SQL scripts</strong> to <strong>engineering/stakeholders</strong> to keep a <strong>single source of truth.</strong></li>
+                        <li><strong>Implemented secure provisioning</strong> to issue <strong>temporary credentials</strong> at submission, enabling <strong>immediate login</strong> to a <strong>companion portal</strong> for clients to <strong>review their information.</strong></li>
+                        <li><strong>Hardened workflows</strong> for <strong>security and compliance</strong> by limiting <strong>sensitive data</strong> in notifications, enforcing <strong>HTTPS</strong>, and applying <strong>least-privilege access</strong> and <strong>audit-ready change controls.</strong></li>
+                        <li><strong>Collaborated</strong> across <strong>product, QA,</strong> and <strong>operations</strong> in an <strong>Agile</strong> cadence to <strong>refine requirements, test edge cases</strong>, and <strong>document flows</strong> for associates and support teams.</li>
+                        <li><strong>Streamlined end-to-end enrollment</strong> by <strong>reducing manual steps</strong> and aligning <strong>back-office processes</strong>, improving <strong>time-to-activation</strong> and <strong>data accuracy</strong>.</li>
+
+                    </ul>
+
+                )
+            })}
                 </section>
     );
 }

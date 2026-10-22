@@ -87,7 +87,7 @@ export function Projects() {
                 />
                 <ProjectBox 
                     title="Enterprise Data Dashboard & Analytics Portal" 
-                    description="Created a dashboard that extracted different client companies' information from the company database and displayed them on an intuitive interface that allowed internal users to increase information lookup speeds by 25%, ultimately accelerated the rate at which First Horizon's Electronic Bill Payment service is developed and implemented." 
+                    description= "Developed a full-stack internal analytics application that optimized data extraction across multiple client databases. By designing an intuitive user interface and streamlined backend queries, this portal boosted information lookup speeds by 25% and directly accelerated the development and implementation timelines for First Horizon's Electronic Bill Payment service."
                     techStack="React, JavaScript, CSS, Java, Spring Boot, MySQL"
                 />
             </div>
